@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bulonera Amyso - Tu ferretería y bulonería de confianza en Lavalle, Mendoza. Bulones, herramientas, fijaciones y más." />
+  <title>Bulonera Amyso | Lavalle, Mendoza</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="public/css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <span class="brand-icon"><i class="bi bi-tools"></i></span>
+        <span class="brand-text">Bulonera <strong>Amyso</strong></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="https://wa.me/5492610000000?text=Hola%20Bulonera%20Amyso%2C%20quisiera%20consultar%20sobre..."
+           target="_blank" class="btn btn-success ms-lg-3 btn-sm px-3 d-flex align-items-center gap-1">
+          <i class="bi bi-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="inicio" class="hero-section d-flex align-items-center">
+    <div class="container text-white">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="badge bg-warning text-dark mb-3 px-3 py-2 fs-6">📍 Lavalle, Mendoza</span>
+          <h1 class="display-4 fw-black mb-3 lh-1">
+            Todo en bulonería<br /><span class="text-warning">y herramientas</span>
+          </h1>
+          <p class="lead mb-4 text-white-75">
+            Negocio familiar con años de trayectoria. Atendemos a vecinos, talleres y
+            constructores de toda la zona de Lavalle con la mejor calidad y precio justo.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#catalogo" class="btn btn-warning btn-lg fw-bold px-4">
+              <i class="bi bi-grid me-2"></i>Ver Catálogo
+            </a>
+            <a href="https://wa.me/5492610000000?text=Hola%20Bulonera%20Amyso%2C%20quisiera%20consultar%20sobre..."
+               target="_blank" class="btn btn-success btn-lg px-4">
+              <i class="bi bi-whatsapp me-2"></i>Consultar ahora
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block text-center">
+          <div class="hero-img-placeholder">
+            <i class="bi bi-tools display-1 text-warning opacity-75"></i>
+            <p class="text-white-50 mt-2 small">Imagen de local / productos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS / CONFIANZA
+  ============================================================ -->
+  <section class="py-4 bg-warning">
+    <div class="container">
+      <div class="row text-center g-3">
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">+20</div>
+            <div class="stat-label">Años de experiencia</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">+500</div>
+            <div class="stat-label">Productos en stock</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">4.8 ★</div>
+            <div class="stat-label">Calificación Google</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">Local</div>
+            <div class="stat-label">Atención personalizada</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NOSOTROS
+  ============================================================ -->
+  <section id="nosotros" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="section-tag">Quiénes somos</span>
+          <h2 class="display-6 fw-bold mt-2 mb-3">Una familia al servicio<br />de Lavalle</h2>
+          <p class="text-secondary mb-3">
+            Bulonera Amyso nació como un emprendimiento familiar en Lavalle, Mendoza, con el
+            objetivo de brindar a la comunidad local acceso a materiales de calidad sin tener
+            que salir del departamento.
+          </p>
+          <p class="text-secondary mb-4">
+            Trabajamos con talleres mecánicos, constructores, electricistas y vecinos particulares,
+            siempre con atención personalizada y el asesoramiento que necesitás para elegir el
+            producto correcto.
+          </p>
+          <ul class="list-unstyled features-list">
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Amplio stock permanente</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Precios competitivos y justos</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Asesoramiento técnico incluido</li>
+            <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Atención rápida y cercana</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-img-placeholder rounded-3 d-flex flex-column align-items-center justify-content-center">
+            <i class="bi bi-shop display-1 text-warning"></i>
+            <p class="text-white-50 mt-2">Foto del local</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CATEGORÍAS
+  ============================================================ -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-4">
+        <span class="section-tag">Lo que ofrecemos</span>
+        <h2 class="display-6 fw-bold mt-2">Nuestras categorías</h2>
+      </div>
+      <div class="row g-3" id="categorias-grid">
+        <!-- Se renderiza dinámicamente desde JS -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="buloneria-general">
+            <i class="bi bi-circle-half display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Bulonería General</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="bulones-especiales">
+            <i class="bi bi-gear display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Bulones Especiales</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="herramientas">
+            <i class="bi bi-tools display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Herramientas</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="fijaciones">
+            <i class="bi bi-hammer display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Fijaciones</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="tornilleria">
+            <i class="bi bi-arrows-angle-contract display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Tornillería</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card text-center p-3 rounded-3 h-100" data-cat="accesorios">
+            <i class="bi bi-box-seam display-6 text-warning"></i>
+            <p class="mt-2 mb-0 fw-semibold small">Accesorios</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CATÁLOGO DE PRODUCTOS
+  ============================================================ -->
+  <section id="catalogo" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4">
+        <span class="section-tag">Productos</span>
+        <h2 class="display-6 fw-bold mt-2">Catálogo</h2>
+        <p class="text-secondary">Buscá el producto que necesitás y consultanos por WhatsApp.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="row g-2 mb-4 align-items-center">
+        <div class="col-md-6">
+          <div class="input-group">
+            <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+            <input type="text" id="search-input" class="form-control" placeholder="Buscar producto..." />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <select id="categoria-filter" class="form-select">
+            <option value="">Todas las categorías</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-outline-secondary w-100" id="btn-limpiar">
+            <i class="bi bi-x-circle me-1"></i>Limpiar
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid de productos -->
+      <div class="row g-3" id="productos-grid">
+        <!-- Skeleton loaders -->
+        <div class="col-6 col-md-4 col-lg-3 skeleton-item" id="skeleton">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="skeleton-img"></div>
+            <div class="card-body">
+              <div class="skeleton-line w-75 mb-2"></div>
+              <div class="skeleton-line w-50 mb-3"></div>
+              <div class="skeleton-line w-100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 d-none" id="no-resultados">
+        <i class="bi bi-search fs-1 text-secondary"></i>
+        <p class="text-secondary mt-2">No encontramos productos con ese criterio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROMOCIONES / BANNERS
+  ============================================================ -->
+  <section id="promociones" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-4">
+        <span class="section-tag-light">Ofertas</span>
+        <h2 class="display-6 fw-bold mt-2">Promociones del mes</h2>
+      </div>
+      <div id="carrusel-banners" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-3" id="carousel-items">
+          <!-- Renderizado dinámico desde JS -->
+          <div class="carousel-item active">
+            <div class="promo-placeholder d-flex flex-column align-items-center justify-content-center rounded-3 p-5">
+              <i class="bi bi-tag-fill display-1 text-warning"></i>
+              <h3 class="mt-3 fw-bold">Ofertas de Temporada</h3>
+              <p class="text-white-50">Descuentos en bulonería y herramientas seleccionadas</p>
+              <a href="https://wa.me/5492610000000?text=Hola%2C%20quiero%20consultar%20sobre%20las%20promociones%20vigentes"
+                 class="btn btn-warning mt-2" target="_blank">
+                <i class="bi bi-whatsapp me-1"></i>Consultar oferta
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-banners" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-banners" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESEÑAS GOOGLE
+  ============================================================ -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Opiniones</span>
+        <h2 class="display-6 fw-bold mt-2">Lo que dicen nuestros clientes</h2>
+        <div class="d-flex justify-content-center align-items-center gap-2 mt-2">
+          <span class="text-warning fs-4">★★★★★</span>
+          <span class="fw-bold fs-5">4.8</span>
+          <span class="text-secondary">en Google</span>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="review-card h-100 p-4 rounded-3">
+            <div class="text-warning mb-2">★★★★★</div>
+            <p class="text-secondary fst-italic">"Excelente atención, tienen todo lo que uno busca y a buen precio. Ya hace años que les compro y nunca me fallaron."</p>
+            <div class="d-flex align-items-center gap-2 mt-3">
+              <div class="avatar-circle">JM</div>
+              <div>
+                <div class="fw-semibold small">Juan M.</div>
+                <div class="text-secondary" style="font-size:0.75rem">Hace 3 semanas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card h-100 p-4 rounded-3">
+            <div class="text-warning mb-2">★★★★★</div>
+            <p class="text-secondary fst-italic">"Me asesoraron muy bien para elegir los bulones para mi proyecto. El trato es muy amable y familiar, se nota que conocen el rubro."</p>
+            <div class="d-flex align-items-center gap-2 mt-3">
+              <div class="avatar-circle">LG</div>
+              <div>
+                <div class="fw-semibold small">Laura G.</div>
+                <div class="text-secondary" style="font-size:0.75rem">Hace 1 mes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card h-100 p-4 rounded-3">
+            <div class="text-warning mb-2">★★★★☆</div>
+            <p class="text-secondary fst-italic">"Buen stock, precios accesibles y te atienden al instante. Ideal para no tener que ir hasta ciudad para conseguir materiales."</p>
+            <div class="d-flex align-items-center gap-2 mt-3">
+              <div class="avatar-circle">CR</div>
+              <div>
+                <div class="fw-semibold small">Carlos R.</div>
+                <div class="text-secondary" style="font-size:0.75rem">Hace 2 meses</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       UBICACIÓN & CONTACTO
+  ============================================================ -->
+  <section id="contacto" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Dónde estamos</span>
+        <h2 class="display-6 fw-bold mt-2">Ubicación y contacto</h2>
+      </div>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-5">
+          <div class="contact-card h-100 p-4 rounded-3">
+            <h5 class="fw-bold mb-4">Datos de contacto</h5>
+
+            <div class="contact-item mb-3">
+              <i class="bi bi-geo-alt-fill text-warning fs-5"></i>
+              <div>
+                <div class="fw-semibold">Dirección</div>
+                <div class="text-secondary">Lavalle, Mendoza, Argentina</div>
+              </div>
+            </div>
+
+            <div class="contact-item mb-3">
+              <i class="bi bi-telephone-fill text-warning fs-5"></i>
+              <div>
+                <div class="fw-semibold">Teléfono / WhatsApp</div>
+                <a href="tel:+5492610000000" class="text-secondary text-decoration-none">+54 9 261 000-0000</a>
+              </div>
+            </div>
+
+            <div class="contact-item mb-3">
+              <i class="bi bi-envelope-fill text-warning fs-5"></i>
+              <div>
+                <div class="fw-semibold">Email</div>
+                <a href="mailto:contacto@buloneraamyso.com" class="text-secondary text-decoration-none">contacto@buloneraamyso.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item mb-4">
+              <i class="bi bi-clock-fill text-warning fs-5"></i>
+              <div>
+                <div class="fw-semibold">Horario</div>
+                <div class="text-secondary">Lun–Vie: 8:00 a 18:00 hs</div>
+                <div class="text-secondary">Sáb: 8:00 a 13:00 hs</div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="d-flex gap-3 mt-3">
+              <a href="https://wa.me/5492610000000?text=Hola%20Bulonera%20Amyso%2C%20quiero%20consultar..."
+                 target="_blank" class="btn btn-success flex-fill">
+                <i class="bi bi-whatsapp me-2"></i>WhatsApp
+              </a>
+              <a href="https://instagram.com/buloneraamyso" target="_blank" class="btn btn-outline-secondary flex-fill">
+                <i class="bi bi-instagram me-2"></i>Instagram
+              </a>
+              <a href="https://facebook.com/BulonerAmyso" target="_blank" class="btn btn-outline-secondary flex-fill">
+                <i class="bi bi-facebook me-2"></i>Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="map-container rounded-3 overflow-hidden h-100" style="min-height: 350px;">
+            <!-- Google Maps embed — reemplazar src con coordenadas reales del local -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54000!2d-68.5726!3d-32.7001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e098b4956d3f7%3A0x8ebb1b4fa8a00e19!2sLavalle%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1700000000000"
+              width="100%"
+              height="100%"
+              style="border:0; min-height:350px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación Bulonera Amyso - Lavalle, Mendoza">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-tools text-warning fs-4"></i>
+            <span class="fw-bold">Bulonera <strong class="text-warning">Amyso</strong></span>
+          </div>
+          <p class="text-secondary small mt-1 mb-0">Lavalle, Mendoza · Negocio familiar</p>
+        </div>
+        <div class="col-md-4 text-md-center">
+          <div class="d-flex justify-content-md-center gap-3">
+            <a href="https://wa.me/5492610000000" target="_blank" class="text-white fs-5"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://instagram.com/buloneraamyso" target="_blank" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com/BulonerAmyso" target="_blank" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <p class="text-secondary small mb-0">© 2026 Bulonera Amyso. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BOTÓN FLOTANTE WHATSAPP
+  ============================================================ -->
+  <a href="https://wa.me/5492610000000?text=Hola%20Bulonera%20Amyso%2C%20quisiera%20consultar%20sobre..."
+     target="_blank"
+     class="whatsapp-float"
+     aria-label="Contactar por WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- ============================================================
+       MODAL DETALLE PRODUCTO
+  ============================================================ -->
+  <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="modalProductoLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img id="modal-img" src="" alt="" class="img-fluid rounded-3 mb-3 w-100" style="max-height:220px; object-fit:cover; display:none" />
+          <p id="modal-descripcion" class="text-secondary"></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fs-4 fw-bold text-dark" id="modal-precio"></span>
+            <span class="badge" id="modal-stock-badge"></span>
+          </div>
+          <div class="text-secondary small mt-1">SKU: <span id="modal-sku"></span></div>
+        </div>
+        <div class="modal-footer border-0">
+          <a id="modal-wsp-btn" href="#" target="_blank" class="btn btn-success w-100 py-2">
+            <i class="bi bi-whatsapp me-2"></i>Consultar por este producto
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Lógica principal -->
+  <script src="public/js/main.js"></script>
+</body>
+</html>

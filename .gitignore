@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno — NUNCA al repositorio
+.env
+
+# Uploads generados por usuarios
+uploads/products/*.jpg
+uploads/products/*.jpeg
+uploads/products/*.png
+uploads/products/*.webp
+uploads/banners/*.jpg
+uploads/banners/*.jpeg
+uploads/banners/*.png
+uploads/banners/*.webp
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build / dist
+dist/
+build/
